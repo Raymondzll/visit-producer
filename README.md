@@ -1,4 +1,4 @@
-# 在 windows 环境下开发，其他应该用不了。
+## 在 windows 环境下开发，其他应该用不了。
 
 # 配置
 
@@ -36,9 +36,9 @@ monitor 用法：
 
 # 注意：只用于 https://fx白丝.ml
 
-moniter （查看默认网站的浏览数）
+monitor （查看默认网站的浏览数）
 
-moniter 网站名
+monitor 网站名
 
 如果运行的时候后台还有 process 的子进程将会返回一个错误信息。
 
