@@ -16,25 +16,23 @@
 
 process 用法：（以process64 为例）
 
-process（默认进程数、默认浏览数、默认网站（五彩斑斓那个帖子））
+process（默认进程数、默认浏览数、不关机、默认网站（五彩斑斓那个帖子））
 
-process 进程数（默认浏览数、默认网站）
+process 进程数（默认浏览数、不关机、默认网站）
 
-process 进程数 单进程浏览数（默认网站）
+process 进程数 单进程浏览数（不关机、默认网站）
 
-process 进程数 单进程浏览数 网站名
+process 进程数 单进程浏览数 1（关机、默认网站）
+
+process 进程数 单进程浏览数 1 网站名
 
 **输入奇怪的东西将不会保证。**
 
-一个例子：```process 5 600 https://xn--fx-ex2c330n.ml/show.php?url=https://www.luogu.com.cn/discuss/423386```
+一个例子：```process 5 600 1 https://xn--fx-ex2c330n.ml/show.php?url=https://www.luogu.com.cn/discuss/423386```
 
 monitor 用法：
 
-### 注意：只用于 https://fx白丝.ml
-
 ## 注意：只用于 https://fx白丝.ml
-
-# 注意：只用于 https://fx白丝.ml
 
 monitor （查看默认网站的浏览数）
 
