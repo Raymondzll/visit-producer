@@ -2,7 +2,7 @@ import requests
 import sys
 import time
 import os
-name='https://xn--fx-ex2c330n.ml/show.php?url=https://www.luogu.com.cn/discuss/438234'
+name='https://xn--fx-ex2c330n.ml/show.php?url=https://www.luogu.com.cn/discuss/423386'
 turn=600
 shut_after_done=0
 if len(sys.argv)>1:
@@ -19,7 +19,7 @@ if len(sys.argv)>3:
                 print("bad input.")
                 exit()
         else:
-                name=sys.argv[1]
+                name=sys.argv[3]
 cnt=0
 while 1:
         try:
