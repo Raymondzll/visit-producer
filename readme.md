@@ -1,15 +1,15 @@
-# ǰ��������python requests�� bs4�� ���Լ������ϱ���main.cpp
+# 前置条件：python requests库 bs4库 在自己电脑上编译main.cpp
 
-�÷�������̨����
+用法（控制台）：
 
-main ������ ��������ѭ���� ˢ���Ƿ�ػ�[0/1] ��ַ
+main 进程数 单个进程循环数 刷完是否关机[0/1] 网址
 
-�Ӻ�ǰ�����ʡ�ԡ��磺main 5 1000��5�����̣�ÿ��1000��
+从后到前可逐个省略。如：main 5 1000，5个进程，每个1000次
 
-���ܣ�main 5 https://xxx �������޷�ʶ��
+不能：main 5 https://xxx 这样会无法识别。
 
-monitor���鿴���еĽ�����
+monitor：查看运行的进程数
 
-shut���ص����н���
+shut：关掉所有进程
 
-����㷢�ֺܿ��û�н��������ˣ����ܵ�ԭ���������վ��botǽ�ˡ�
+如果你发现很快就没有进程运行了，可能的原因是这个网站把bot墙了。
